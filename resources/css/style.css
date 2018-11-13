@@ -38,7 +38,6 @@ header {
     display: inline-block;
     color: rgb(225, 225, 225);
     text-decoration: none;
-    padding: 5px 20px;
     padding: .3em 1.3em;
     font-family: "Roboto", sans-serif;
     font-size: 1em;
@@ -60,19 +59,43 @@ header {
     margin-top: 0;
 } */
 
-.hero {
+.homeHero {
     position: absolute;
+    width: 50%;
     margin: 0 auto;
+    margin-top: 20em;
+    margin-left: 29em;
     text-align: center;
-    background: blue;
-    width: 75em;
-    margin-top: 275px;
+    font-family: "Roboto", sans-serif;
 }
 
-h1 {
-    color: white;
+section h1 {
     text-transform: uppercase;
-    font-size: 70px;
-    text-align: center;
-    /* margin-top: 275px; */
+    font-size: 4em;
+    color: rgb(247, 147, 30);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    margin-bottom: .5em;
+    font-weight: 900;
+}
+
+.homeHeroSpan {
+    font-size: 1.8em;
+    color: rgb(247, 147, 30);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    margin-bottom: 1.5em;
+    font-weight: 800;
+}
+
+.heroButton {
+    color: rgb(225, 225, 225);
+    background: none;
+    padding: .5em 1.3em;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    border: .12em solid rgb(225, 225, 225);
+}
+
+.heroButton:hover {
+    background: rgb(4,112,186);
 }
