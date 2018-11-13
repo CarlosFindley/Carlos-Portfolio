@@ -1,0 +1,49 @@
+body {
+    font-family: monospace;
+}
+
+header {
+    background-image: url(../images/horses.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    font-size: 1em;
+}
+
+.logoAndNav {
+    max-width: 90%;
+    margin: auto;
+}
+
+.logo img {
+    width: 9.4em;
+    height: auto;
+    float: left;
+    margin-top: 2em;
+}
+
+.mainNavBar {
+    float: right;
+    margin-top: 4.5em;
+}
+
+.mainNavBar a {
+    display: inline-block;
+    color: rgb(225, 225, 225);
+    text-decoration: none;
+    padding: 5px 20px;
+    padding: .3em 1.3em;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.mainNavBar a:hover {
+    border: .1em solid rgb(225, 225, 225);
+}
+
+.mainNavBar a.active {
+    border: .1em solid rgb(225, 225, 225);
+}
