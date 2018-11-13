@@ -1,3 +1,8 @@
+/* This makes the backgroumd git to the viewport */
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: monospace;
 }
@@ -46,4 +51,28 @@ header {
 
 .mainNavBar a.active {
     border: .1em solid rgb(225, 225, 225);
+}
+
+/* .homeHero {
+    position: absolute;
+    width: 75em;
+    margin-left: 0;
+    margin-top: 0;
+} */
+
+.hero {
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    background: blue;
+    width: 75em;
+    margin-top: 275px;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    /* margin-top: 275px; */
 }
