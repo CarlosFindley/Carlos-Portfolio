@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-image: url(../images/horses.png);
+    background-image: url(../images/horses.png); /* Image source: https://www.pexels.com/photo/grayscale-photography-of-two-horse-statues-906795/ */
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -64,7 +64,7 @@ header {
     width: 50%;
     margin: 0 auto;
     margin-top: 20em;
-    margin-left: 29em;
+    margin-left: 28em;
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
@@ -98,4 +98,37 @@ section h1 {
 
 .heroButton:hover {
     background: rgb(4,112,186);
+}
+
+
+/* About Me Section
+=========================================== */
+.aboutMeSection {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-size: 1em;
+}
+
+/* Portfolio Section
+=========================================== */
+.portfolioSection {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-size: 1em;
+}
+
+.testimonialSection {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-size: 1em;
+}
+
+.contactSection {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-size: 1em;
 }
