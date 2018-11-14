@@ -103,7 +103,7 @@ section h1 {
 
 /* About Me Section
 =========================================== */
-.aboutMeSection {
+.aboutSection {
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -119,20 +119,27 @@ section h1 {
     padding: 1em;
   }
   
-.aboutContainer {
-    border: 1em solid #ff9e2c;
-  }
-  
-.skillsContainer {
-    border: 1em solid #b6701e;
-  }
 
 h2 {
   font-size: 2em;
   /* margin: 0 0 0.75rem 0; */
 }
 
+.aboutMeContent, .skillsContent {
+    margin-top: 3.3em;
+    margin-bottom: 3.3em;
+    width: 90%;
+    height: 90%;
+    border: .5em solid rgb(0, 0, 0);
+}
 
+.aboutMeContent {
+    margin-left: 3.6em;
+}
+
+.skillsContent {
+    margin-left: 1.5em;
+}
 
 
 
@@ -150,6 +157,7 @@ h2 {
 /* Portfolio Section
 =========================================== */
 .portfolioSection {
+    background-image: url(../images/greenLeaves.png); /* Image source: https://www.pexels.com/photo/green-leaves-1072179/ */
     height: 100vh;
     background-size: cover;
     background-position: center;
