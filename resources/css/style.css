@@ -115,30 +115,46 @@ section h1 {
 
 .aboutContainer, .skillsContainer {
     display: table-cell;
+    vertical-align:middle;
     width: 50%;
     padding: 1em;
   }
+
+  .aboutContainer {
+    text-align: center;
+  }
   
+/* About me image syling */
+.carlosImg {
+    width: 120px;
+    border-radius: 10%;
+    /* margin-bottom: 1em; */
+}
 
 h2 {
   font-size: 2em;
-  /* margin: 0 0 0.75rem 0; */
+  margin-top: 1em;
+  margin-bottom: .5em;
 }
 
-.aboutMeContent, .skillsContent {
+.aboutMeBorder, .skillsBorder {
     margin-top: 3.3em;
     margin-bottom: 3.3em;
     width: 90%;
     height: 90%;
-    border: .5em solid rgb(0, 0, 0);
+    border: .5em solid rgba(0, 0, 0, .6);
 }
 
-.aboutMeContent {
+.aboutMeBorder {
     margin-left: 3.7em;
 }
 
-.skillsContent {
+.skillsBorder {
     margin-left: 1.4em;
+}
+
+.aboutMeContent, .skillsContent {
+    margin: 2em;
 }
 
 
