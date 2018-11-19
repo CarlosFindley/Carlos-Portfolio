@@ -145,17 +145,46 @@ h2 {
     border: .5em solid rgba(0, 0, 0, .6);
 }
 
+.aboutMeContent, .skillsContent {
+    margin: 2em;
+}
+
 .aboutMeBorder {
     margin-left: 3.7em;
+}
+
+.aboutMeP {
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .skillsBorder {
     margin-left: 1.4em;
 }
 
-.aboutMeContent, .skillsContent {
-    margin: 2em;
+.skillsContent {
+    text-align: center;
 }
+
+.gridSkillsContainer {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    margin-top: 2em;
+}
+
+.skillsImg {
+    width: 5em;
+}
+
+
+
+
 
 
 
