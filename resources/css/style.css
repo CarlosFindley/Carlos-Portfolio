@@ -219,6 +219,17 @@ h2 {
 }
 
 
+.portfolioImg:hover {
+    transition: .1s;
+    width: 36em;
+    
+}
+
+.portfolioText {
+    color: rgb(225, 225, 225);
+}
+
+
 /*  */
 
 
