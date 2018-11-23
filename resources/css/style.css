@@ -172,10 +172,10 @@ h2 {
 
 .gridSkillsContainer {
     display: grid;
+    margin-top: 4.5em;
+    grid-template-columns: auto auto auto;
     grid-column-gap: 50px;
     grid-row-gap: 50px;
-    grid-template-columns: auto auto auto;
-    margin-top: 4.5em;
 }
 
 .skillsImg {
@@ -188,19 +188,6 @@ h2 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Portfolio Section
 =========================================== */
 .portfolioSection {
@@ -210,6 +197,34 @@ h2 {
     background-position: center;
     font-size: 1em;
 }
+
+.portfolioContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolioContent {
+    display: grid;
+    margin-top: 10em;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 0;
+    grid-row-gap: 13em;
+    text-align: center;
+    color: rgb(225, 225, 225);
+}
+
+.portfolioImg {
+    width: 35em;
+}
+
+
+/*  */
+
+
+
+
+
 
 .testimonialSection {
     height: 100vh;
@@ -224,6 +239,8 @@ h2 {
     background-position: center;
     font-size: 1em;
 }
+
+
 
 
 
