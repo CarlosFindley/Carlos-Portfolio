@@ -223,7 +223,19 @@ h2 {
 
 .portfolioImg {
     width: 35em;
+}
 
+.ribbon {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 33em;
+    padding: 1em;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 238, 0);
 }
 
 /* .gridPortfolioItem {
