@@ -175,15 +175,17 @@ h2 {
     grid-column-gap: 50px;
     grid-row-gap: 50px;
     grid-template-columns: auto auto auto;
-    margin-top: 2em;
+    margin-top: 4.5em;
 }
 
 .skillsImg {
     width: 6em;
 }
 
-
-
+.skillsImg:hover {
+    transition: 0.70s;
+    transform: rotate(360deg);
+}
 
 
 
