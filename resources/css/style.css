@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: monospace;
@@ -108,7 +109,7 @@ section h1 {
 
 .aboutContainer, .skillsContainer {
     display: table-cell;
-    vertical-align:middle;
+    vertical-align: middle;
     width: 50%;
     padding: 1em;
   }
@@ -324,7 +325,7 @@ h2 {
 /* Contact Section
 =========================================== */
 .contactSection {
-    background-image: url(../images/blossom.png); /* Image source:  */
+    background-image: url(../images/blossom.png); /* Image source: www.pexels.com/photo/nature-flowers-trees-petals-89102/ */
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -333,11 +334,13 @@ h2 {
 
 .contactContainer {
     position: absolute;
+    
     background: rgba(225, 225, 225, .8);
     width: 92%;
     height: 85%;
     margin: 5em;
     border: .5em solid rgba(0, 0, 0, .6);
+    padding: 5em;
 }
 
 
