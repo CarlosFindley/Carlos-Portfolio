@@ -331,6 +331,15 @@ h2 {
     font-size: 1em;
 }
 
+.contactContainer {
+    position: absolute;
+    background: rgba(225, 225, 225, .8);
+    width: 92%;
+    height: 85%;
+    margin: 5em;
+    border: .5em solid rgba(0, 0, 0, .6);
+}
+
 
 
 
