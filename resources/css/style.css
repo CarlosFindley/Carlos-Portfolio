@@ -52,13 +52,6 @@ header {
     border: .1em solid rgb(225, 225, 225);
 }
 
-/* .homeHero {
-    position: absolute;
-    width: 75em;
-    margin-left: 0;
-    margin-top: 0;
-} */
-
 .homeHero {
     position: absolute;
     width: 50%;
@@ -128,7 +121,6 @@ section h1 {
 .carlosImg {
     width: 120px;
     border-radius: 10%;
-    /* margin-bottom: 1em; */
 }
 
 h2 {
@@ -229,48 +221,31 @@ h2 {
     position: absolute;
     left: 0;
     bottom: 20px;
-    width: 33em;
-    padding: 1em;
+    width: 21.8em;
+    padding: .8em;
     font-weight: 300;
     line-height: 30px;
     color: rgb(0, 0, 0);
     text-align: center;
+    font-size: 1.5em;
+    background-color: rgb(50, 56, 49);
+    color: rgb(255, 238, 0);
+    
+}
+
+.ribbon:hover {
+    font-weight: 900;
     background-color: rgb(255, 238, 0);
+    color: rgb(50, 56, 49);
+}
+    
 }
 
-/* .gridPortfolioItem {
-    position: relative;
-}
-
-.portfolioText {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 0;
-    font-weight: 300;
-    line-height: 30px;
-    color: #ffffff;
+section h3{
+    margin: 0 auto;
     text-align: center;
-    background: #4aaaa5;
-    border-bottom: 0;
-  } */
-
-
-
-
-.portfolioImg:hover {
-    
-}
-    
-}
-
-.portfolioText {
     color: rgb(225, 225, 225);
 }
-
-
-/*  */
 
 
 
