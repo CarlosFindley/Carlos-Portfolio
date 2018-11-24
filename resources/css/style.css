@@ -233,7 +233,7 @@ h2 {
     position: absolute;
     left: 0;
     bottom: 20px;
-    width: 21.8em;
+    width: 100%;
     padding: .8em;
     font-weight: 300;
     line-height: 30px;
@@ -348,6 +348,60 @@ h2 {
     font-size: 30px;
     line-height: 49px;
     border-bottom: 3px solid rgba(0, 0, 0, .6);
+}
+
+/* contact form */
+  
+#contact-form ul {
+    margin-bottom: 20px;
+}
+  
+#contact-form li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+  
+label,
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+}
+  
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, .6);
+}
+
+label {
+    list-style: none;
+}
+  
+textarea {
+    height: 200px;
+}
+  
+input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: rgb(4, 112, 186);
+    font-weight: 600;
+    border: 0 none;
+  }
+
+input[type=submit]:hover {
+      background: rgb(255, 107, 135);
+      color: rgba(0, 0, 0, .6);
+      font-weight: 600;
+      border: 1px solid rgba(0, 0, 0, .6);
+      
 }
 
 
