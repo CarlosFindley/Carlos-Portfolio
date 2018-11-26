@@ -429,15 +429,23 @@ footer {
 }
 
 .fa-github, .fa-linkedin-in {
-    color: rgb(225, 225, 225);;
+    color: rgb(225, 225, 225);
 }
 
 .fa-github {
     margin-right: .2em;
 }
 
+.fa-github:hover {
+    color: rgba(246, 161, 45);
+}
+
 .fa-linkedin-in {
     margin-left: .2em;
+}
+
+.fa-linkedin-in:hover {
+    color: rgba(246, 161, 45);
 }
 
 .copyright {
