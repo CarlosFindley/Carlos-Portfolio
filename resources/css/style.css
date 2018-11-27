@@ -277,7 +277,6 @@ h2 {
     width: 70%;
     height: 70%;
     background: rgb(50, 50, 50);
-
 }
 
 .slideshow {
@@ -386,7 +385,7 @@ textarea {
 input[type=submit] {
     padding: 10px 30px;
     font-size: 18px;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     background: rgb(4, 112, 186);
     font-weight: 600;
@@ -499,14 +498,66 @@ footer {
         width: 5em;
         vertical-align: middle;
     } 
-
     /* portfolio me section */
     .portfolioContent {
         grid-template-columns: auto auto;
     } .portfolioH3Style {
         margin-left: 10.5em;
     }
-
+    /* portfolio me section */
+    .testimonialH4Style {
+        margin-top: 1.5em;
+        margin-left: 10em;
+    } .contentStyle {
+        margin-top: 15em;
+        margin-left: 4em;
+        width: 90%;
+        height: 48%;
+    }
+    /* contact me section */
+    .contactContainer {
+        width: 86%;
+        height: 89%;
+        margin: 5em;
+        border: .5em solid rgba(0, 0, 0, .6);
+        padding: 5em;
+    } .contactH5Style {
+        font-size: 4em;
+    } 
+    label,
+    input[type=text],
+    input[type=email],
+    textarea {
+        font-size: 2.5em;
+}
+    input[type=text],
+    input[type=email],
+    textarea {
+        /* height: 1.5em; */
+        padding: 0 10px;
+        font-size: 1.5em;
+        border: .1em solid rgba(0, 0, 0, .6);
+    }
+    input[type=submit] {
+        padding: 13px 33px;
+        font-size: 2em;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        font-weight: 600;
+        border: 0 none;
+      }
+    input[type=submit]:hover {
+        padding: 10px 30px;
+        font-weight: 600;
+    }
+    /* footer section */
+    .footerContainer {
+        width: 20%;
+        margin-top: 3em;
+        margin-left: 32em;
+    } .followMeFooter span {
+        font-size: 2em;
+    }
 }
 
 
