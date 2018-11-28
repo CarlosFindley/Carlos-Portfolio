@@ -281,7 +281,6 @@ h2 {
 
 .slideshow {
     margin: 0 auto;
-    /* margin-top: 50px; */
     width: 90%;
     height: 100%;
     background: rgba(248, 248, 248, 0.6);
@@ -832,13 +831,39 @@ footer {
     /* testimonials section */
     .testimonialH4Style {
         margin-top: 1.5em;
-        margin-left: 10em;
+        margin-left: 3.7em;
+        font-size: 2em;
     } .contentStyle {
-        margin-top: 15em;
-        margin-left: 4em;
+        margin-top: 10em;
+        margin-left: 1em;
         width: 90%;
-        height: 48%;
-    } 
+        height: 50%;
+    } .slideshow {
+        margin: 0 auto;
+        width: 75%;
+        height: 100%;
+    } .slide1 {
+        margin: 10px;  /* em didn't work */
+        margin-top: .5em;
+        padding: 1em .5em;
+        box-shadow: 2px 6px 8px rgba(26, 25, 25, 0.6);
+        width: 1em;
+        height: 14.5em;
+    } .slide2 {
+        margin: 10px;  /* em didn't work */
+        margin-top: .5em;
+        padding: 1em .5em;
+        box-shadow: 2px 6px 8px rgba(26, 25, 25, 0.6);
+        width: 1em;
+        height: 14.5em;
+    } .slide3 {
+        margin: 10px;  /* em didn't work */
+        margin-top: .5em;
+        padding: 1em .5em;
+        box-shadow: 2px 6px 8px rgba(26, 25, 25, 0.6);
+        width: 1em;
+        height: 14.5em;
+    }
 
     /* contact me section */
     .contactContainer {
