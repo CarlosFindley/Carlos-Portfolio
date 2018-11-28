@@ -867,31 +867,31 @@ footer {
 
     /* contact me section */
     .contactContainer {
-        width: 86%;
-        height: 89%;
-        margin: 5em;
+        width: 92.5%;
+        height: 97%;
+        margin: 1em;
         border: .5em solid rgba(0, 0, 0, .6);
-        padding: 5em;
+        padding: 2em;
     } .contactH5Style {
-        font-size: 4em;
+        font-size: 2.1em;
     } 
     label,
     input[type=text],
     input[type=email],
     textarea {
-        font-size: 2.5em;
+        font-size: 2.1em;
 }
     input[type=text],
     input[type=email],
     textarea {
         /* height: 1.5em; */
         padding: 0 10px;
-        font-size: 1.5em;
+        font-size: 1.1em;
         border: .1em solid rgba(0, 0, 0, .6);
     }
     input[type=submit] {
         padding: 13px 33px;
-        font-size: 2em;
+        font-size: 1em;
         color: rgb(255, 255, 255);
         cursor: pointer;
         font-weight: 600;
@@ -903,11 +903,11 @@ footer {
     }
     /* footer section */
     .footerContainer {
-        width: 20%;
+        width: 45%;
         margin-top: 3em;
-        margin-left: 32em;
+        margin-left: 8em;
     } .followMeFooter span {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
 
