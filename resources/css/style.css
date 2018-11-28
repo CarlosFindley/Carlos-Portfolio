@@ -668,21 +668,19 @@ footer {
     /* testimonials section */
     .testimonialH4Style {
         margin-top: 1.5em;
-        margin-left: 10em;
+        margin-left: 6.5em;
     } .contentStyle {
         margin-top: 15em;
-        margin-left: 4em;
+        margin-left: 3em;
         width: 90%;
-        height: 48%;
+        height: 66%;
     }
-
-
 
     /* contact me section */
     .contactContainer {
         width: 86%;
         height: 89%;
-        margin: 5em;
+        margin: 4em;
         border: .5em solid rgba(0, 0, 0, .6);
         padding: 5em;
     } .contactH5Style {
@@ -716,9 +714,9 @@ footer {
     }
     /* footer section */
     .footerContainer {
-        width: 20%;
+        width: 30%;
         margin-top: 3em;
-        margin-left: 32em;
+        margin-left: 21em;
     } .followMeFooter span {
         font-size: 2em;
     }
